@@ -1,0 +1,8 @@
+:root { --gold: #eab308; --bg: #030712; --panel: #0f172a; }
+body { background: var(--bg); color: #f8fafc; font-family: 'Segoe UI', sans-serif; margin: 0; }
+.nav { padding: 20px; border-bottom: 1px solid #334155; display: flex; justify-content: space-between; }
+.logo { color: var(--gold); font-weight: 900; font-size: 24px; }
+.container { max-width: 500px; margin: 100px auto; padding: 20px; }
+.card { background: var(--panel); padding: 40px; border-radius: 20px; border: 1px solid var(--gold); text-align: center; }
+input { width: 100%; padding: 15px; margin: 10px 0; border-radius: 10px; border: 1px solid #334155; background: #1e293b; color: white; box-sizing: border-box; }
+button { width: 100%; padding: 15px; background: var(--gold); border: none; border-radius: 10px; font-weight: bold; cursor: pointer; color: #030712; }
